@@ -1,0 +1,9 @@
+# git ignore file
+*.o
+FichierTests/
+dup2
+new 1
+
+# ignore all Os files
+.DS_STORE
+Dockerfile
