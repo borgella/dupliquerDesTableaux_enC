@@ -22,7 +22,7 @@ int main(int agrc, char *argv[]){
 	if((strlen(argv[1]) == 2) && ( argv[1][1] =='C' || argv[1][1] == 'L')){
 		letableau = malloc(taille_t * sizeof(char));
 		undomaine = argv[1][1];
-    int i = 0;
+    		int i = 0;
 		char c;
 		while((c = getchar())!= EOF){
 			if(i < taille_t){
